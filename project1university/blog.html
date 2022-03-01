@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Webdesign</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+<!-- icons  -->
+<link href="assets/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="bi bi-x" onclick="hideMenu()" ></i>
+
+
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+
+                </ul>
+
+
+            </div>
+        
+            
+            <i class="bi bi-list mobile-nav-toggle" onclick="showMenu()"></i>
+
+        </nav>
+        <h1>Our Certificate & Online Program For 2022 </h1>
+
+
+    </section>
+<!-- ------------------blog page content------------
+s -->
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="images/certificate.jpg" alt="">
+            <h2>Our Certificate & Online Program For 2022</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni tenetur magnam distinctio ea, nostrum reiciendis, inventore, voluptate ex modi nesciunt aliquid? Quidem excepturi, est et, nostrum dolorem autem fugiat nobis mollitia id repellendus impedit voluptates dolor sapiente sit minus perferendis!</p>
+            <br>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, perferendis. Culpa vitae vero est inventore laborum magni autem similique, dolor blanditiis doloribus qui ad velit ut, tempora earum asperiores possimus aspernatur fugit fugiat. Sequi beatae commodi, fugit molestiae officia labore? Aliquid adipisci harum veniam commodi dignissimos vero quam laudantium nesciunt maxime ad veritatis est facere enim, autem dolor consequatur non id sapiente neque quas reprehenderit. Nisi tenetur modi inventore magnam voluptates dolore id ut ratione. Fugit nesciunt reprehenderit laborum, aliquam officia ea cupiditate asperiores animi perferendis id, minima nisi deserunt harum ducimus accusantium consequuntur distinctio dicta! Blanditiis ad nisi possimus.</p>
+            <br>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat illum harum ex mollitia voluptatem recusandae! Magni qui nam enim fugit. Aliquid ut quidem assumenda labore accusantium. Quasi est tempora incidunt quia quibusdam illum maiores numquam, rem, doloribus praesentium ullam dolore.</p>
+            <br>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates perspiciatis ipsa aliquam repellat, dignissimos doloremque obcaecati facilis ea dolores consequatur similique est facere aperiam, ratione tenetur corporis voluptas? Quas soluta numquam ut libero explicabo ipsum ducimus, tempore non nemo sit accusamus quae excepturi hic nobis impedit, ea, minus quam natus!
+            </p>
+            <div class="comment-box">
+                <h3>Leave a Comment</h3>
+                <form action="" class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea name="" id="" cols="30" rows=5" placeholder="Comment Here"></textarea>
+                    <button class="hero-btn red-btn">POST COMMENT</button>
+                </form>
+            </div>
+        </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Business Analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Data Analytics</span>
+                <span>23</span>
+            </div>
+            <div>
+                <span>Machine Learning
+                <span>22</span>
+            </div>
+            <div>
+                <span>Deep Learning</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Data Science</span>
+                <span>31</span>
+            </div>
+            <div>
+                <span>Artificial Intelligence</span>
+                <span>25</span>
+            </div>
+            <div>
+                <span>MBA</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Robortic</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Automation</span>
+                <span>21</span>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+    <!-- --------footer---------- -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing Blanditiis porro ipsam cum excepturi eveniet? Fugiat veniam facere aliquid unde totam?</p>
+        <div class="icons">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-twitter"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-linkedin"></i>
+
+        </div>
+        <p>Made with <i class="bi-heart"></i> by Swopnil Shahi</p>
+    </section>
+    <!-- Javascript for toggle menu -->
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+
+        }
+    </script>
+</body>
+</html>
